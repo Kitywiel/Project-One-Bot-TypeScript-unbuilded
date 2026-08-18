@@ -1,0 +1,30 @@
+{
+  "name": "project-one-bot-typescript-unbuilded",
+  "version": "1.0.0",
+  "description": "```\r └── Project One Bot/\r     ├── start.ts\r     ├── server/\r     │   ├── addons/\r     │   ├── server.ts\r     │   ├── server-handeler.ts\r     │   └── bots-finder-server.ts\r     └── bot/\r         └── One Bot Modual/\r             ├── discord.ts\r             ├── index.ts\r             ├── addons/\r             ├── handelers/\r             │   ├── data/\r             │   │   ├── console-log-handeler.ts\r             │   │   ├── message-data-handeler.ts\r             │   │   └── user-data-handeler.ts\r             │   └── discord/\r             │       ├── discord-handeler.ts\r             │       └── discord-embed-handeler.ts\r             ├── moduals/\r             │   ├── standart/\r             │   │   ├── actions/\r             │   │   │   ├── pathfind.ts\r             │   │   │   ├── offhand-item.ts\r             │   │   │   └── kill-mob.ts\r             │   │   ├── savety/\r             │   │   │   ├── auto-logout.ts\r             │   │   │   └── auto-totum.ts\r             │   │   └── rendering/\r             │   │       ├── chunk-data.ts\r             │   │       └── inventory-data.ts\r             │   └── stats/\r             └── data/\r                 └── logs/",
+  "homepage": "https://github.com/Kitywiel/Project-One-Bot-TypeScript-unbuilded#readme",
+  "bugs": {
+    "url": "https://github.com/Kitywiel/Project-One-Bot-TypeScript-unbuilded/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kitywiel/Project-One-Bot-TypeScript-unbuilded.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "discord.js": "^14.27.0",
+    "dotenv": "^17.4.2",
+    "inquirer": "^14.0.2",
+    "mineflayer": "^4.37.1",
+    "ws": "^8.21.3"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.18.1"
+  }
+}
